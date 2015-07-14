@@ -11,7 +11,7 @@ var core = require('core');
 var nextTick = require('common/next_tick');
 var router = require('router');
 
-require('/shared/elements/gaia-header/dist/gaia-header.js');
+require('/shared/gaia-header/dist/gaia-header.js');
 require('dom!modify_event');
 require('dom!show_event');
 

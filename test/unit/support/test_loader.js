@@ -10,7 +10,7 @@ module.exports = function testLoader(path) {
   return co(function *() {
     console.log(`Will load test ${path}`);
     l10nLink('/locales/calendar.{locale}.properties');
-    l10nLink('/shared/locales/date/date.{locale}.properties');
+    l10nLink('/shared/date/date.{locale}.properties');
     l10nMeta('en-US', ['en-US']);
     yield loadL10n();
     var testSupport = yield asyncRequire('test/support/calendar');
