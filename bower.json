@@ -1,0 +1,40 @@
+{
+  "name": "calendar",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/calendar",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "buttons": "git@github.com:alivedise/buttons.git",
+    "config": "git@github.com:alivedise/config.git",
+    "component_utils": "git@github.com:alivedise/component_utils.git",
+    "confirm": "git@github.com:alivedise/confirm.git",
+    "date_time_helper": "git@github.com:alivedise/date_time_helper.git",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git",
+    "gaia_subheader": "git@github.com:alivedise/gaia_subheader.git",
+    "gaia_switch": "git@github.com:alivedise/gaia_switch.git",
+    "gesture_detector": "git@github.com:alivedise/gesture_detector.git",
+    "html_imports": "git@github.com:alivedise/html_imports.git",
+    "icons": "git@github.com:alivedise/icons.git",
+    "input_areas": "git@github.com:alivedise/input_areas.git",
+    "input_parser": "git@github.com:alivedise/input_parser.git",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git",
+    "l10n_date": "git@github.com:alivedise/l10n_date.git",
+    "l10n": "git@github.com:alivedise/l10n.git",
+    "notification_helper": "git@github.com:alivedise/notification_helper.git",
+    "status": "git@github.com:alivedise/status.git",
+    "progress_activity": "git@github.com:alivedise/progress_activity.git",
+    "lazy_loader": "git@github.com:alivedise/lazy_loader.git",
+    "tabs": "git@github.com:alivedise/tabs.git",
+    "switches": "git@github.com:alivedise/switches.git",
+    "toolbars": "git@github.com:alivedise/toolbars.git"
+  }
+}
