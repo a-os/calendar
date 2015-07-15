@@ -35,6 +35,7 @@
     "lazy_loader": "git@github.com:alivedise/lazy_loader.git",
     "tabs": "git@github.com:alivedise/tabs.git",
     "switches": "git@github.com:alivedise/switches.git",
-    "toolbars": "git@github.com:alivedise/toolbars.git"
+    "toolbars": "git@github.com:alivedise/toolbars.git",
+    "test_integration": "git@github.com:alivedise/test_integration.git#~0.0.1"
   }
 }
