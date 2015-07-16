@@ -76,7 +76,7 @@
 
   paths: {
     prim: 'empty:',
-    shared: '../shared/js'
+    shared: '../shared'
   },
 
   // Keeping build dir since Makefile cleans it up and

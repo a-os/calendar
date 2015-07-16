@@ -28,8 +28,8 @@ module.exports = function testLoader(path) {
 };
 
 function *loadL10n() {
-  yield asyncRequire('shared/l10n');
-  yield asyncRequire('shared/l10n_date');
+  yield asyncRequire('shared/l10n/l10n');
+  yield asyncRequire('shared/l10n_date/l10n_date');
 
   // Massive hack to trick l10n to load
   // TODO: upstream a fix to l10n.js

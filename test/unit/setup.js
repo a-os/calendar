@@ -19,8 +19,10 @@ var getTestLoader = require('/js/ext/alameda.js').then(() => {
     shim: {
       'ext/caldav': { exports: 'Caldav' },
       'ext/ical': { exports: 'ICAL' },
-      'shared/gesture_detector': { exports: 'GestureDetector' },
-      'shared/notification_helper': { exports: 'NotificationHelper' },
+      'shared/gesture_detector/gesture_detector':
+        { exports: 'GestureDetector' },
+      'shared/notification_helper/notification_helper':
+        { exports: 'NotificationHelper' },
       'sharedtest/mocks/mock_l10n': { exports: 'MockL10n' }
     }
   });

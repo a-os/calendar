@@ -15,10 +15,11 @@ require.config({
     'ext/caldav': { exports: 'Caldav' },
     'ext/ical': { exports: 'ICAL' },
     'ext/page': { exports: 'page' },
-    'shared/gesture_detector': { exports: 'GestureDetector' },
-    'shared/input_parser': { exports: 'InputParser' },
-    'shared/lazy_loader': { exports: 'LazyLoader' },
-    'shared/notification_helper': { exports: 'NotificationHelper' }
+    'shared/gesture_detector/gesture_detector': { exports: 'GestureDetector' },
+    'shared/input_parser/input_parser': { exports: 'InputParser' },
+    'shared/lazy_loader/lazy_loader': { exports: 'LazyLoader' },
+    'shared/notification_helper/notification_helper':
+      { exports: 'NotificationHelper' }
   }
 });
 

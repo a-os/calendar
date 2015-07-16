@@ -3,7 +3,7 @@ define(function(require, exports, module) {
 
 var AlarmTemplate = require('templates/alarm');
 var EventBase = require('./event_base');
-var InputParser = require('shared/input_parser');
+var InputParser = require('shared/input_parser/input_parser');
 var QueryString = require('querystring');
 var co = require('ext/co');
 var core = require('core');
